@@ -33,9 +33,9 @@
   grid-column: 1/3;
 } 
 /* Activity 2 styles */ 
-.content2 {
+.content2{
   /* This is the parent of the activity 2 boxes. */
-}
+height: auto;}
 .red2 {
   width: 100px; 
   height: 100px; 
