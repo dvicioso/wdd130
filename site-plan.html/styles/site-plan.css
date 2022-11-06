@@ -19,9 +19,9 @@ Fonts are separated by a | */
   --headline-color-on-color: white; /* headlines on a colored background */ 
   --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #396E94  ;
+  --paragraph-background-color: #192841  ;
   --nav-link-color: #396E94;
-  --nav-background-color: #D4AC0D;
+  --nav-background-color: #192841;
   --nav-hover-link-color: white;
   --nav-hover-background-color: #396E94;
 }
@@ -66,6 +66,7 @@ p {
   font-family: var(--paragraph-font);
   color: var(--paragraph-color);
   padding: 1em;
+  text-justify: auto;
 }
 .colors {
   width: 100%;
@@ -172,4 +173,10 @@ nav a:hover {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
+}
+.paragraph1{
+  text-align: justify;
+  line-height: 2 ;
+  margin-top: 0 ;
+  margin-bottom: 0
 }
