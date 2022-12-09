@@ -22,6 +22,7 @@ body {
 }
 header {
     background-color:navy;
+    display: block;
     
 }
 
@@ -37,6 +38,11 @@ nav a  {
     font-size: larger;
     
 }
+nav a:hover {
+    background: #ddd;
+    color: black;
+  }
+
 footer {
         background-color: navy;
         
