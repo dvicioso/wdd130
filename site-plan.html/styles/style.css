@@ -81,7 +81,7 @@ main h1 {
 main p {
     margin-left: 50px;
     margin-right: 50px;
-    text-justify: distribute;
+    
    }
    .home-grid { 
     display: grid;
@@ -105,18 +105,18 @@ main p {
     text-align: center;
 }
 #box1 p {
-    text-align: auto;
+    
     font-size:large;
     
 
 }
 #box2 p {
-    text-align: auto;
+    
     font-size: large;
     
 }
 #box3 p {
-    text-align: auto;
+    
     font-size: large;
     
 }
